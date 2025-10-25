@@ -150,7 +150,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 895, y: 296}
+  m_AnchoredPosition: {x: 777, y: 296}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 5.16, y: 2.07}
 --- !u!222 &3333555407867912114
@@ -181,7 +181,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ca36e9095ca19214fabfcdc03805775a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b6af1973cf85ca14fb4a4978465bcc87, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -261,10 +261,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   image: {fileID: 2449530834583654750}
   sprites:
-  - {fileID: 21300000, guid: ca36e9095ca19214fabfcdc03805775a, type: 3}
-  - {fileID: 21300000, guid: f2ba8ac15d7594c4da27b19d8f9d7995, type: 3}
-  - {fileID: 21300000, guid: c8900ba3003e7214889f5c390ca980ef, type: 3}
-  - {fileID: 21300000, guid: eca59a53a523d3a44aa55a3bc111ea51, type: 3}
+  - {fileID: 21300000, guid: b6af1973cf85ca14fb4a4978465bcc87, type: 3}
+  - {fileID: 21300000, guid: b00561f96a27de642b0d4b57d7a4678c, type: 3}
+  - {fileID: 21300000, guid: 24b665a2dad6d504f83ea87e4a344e24, type: 3}
+  - {fileID: 21300000, guid: b117fdc7a6511c5448919909fc1850f6, type: 3}
 --- !u!1 &8448504877431930364
 GameObject:
   m_ObjectHideFlags: 0
