@@ -30,6 +30,7 @@ public partial class AtividadeCrecheController : MonoBehaviour
         if (GameObject.Find("GameController"))
         {
             GameObject.Find("GameController").GetComponent<AudioSource>().Stop();
+            GameObject.Find("GameController").GetComponent<GameController>().PreviousScene = "Creche";
         }
         this.ordemObjetos = new List<int>(0);
         int ind = 0;

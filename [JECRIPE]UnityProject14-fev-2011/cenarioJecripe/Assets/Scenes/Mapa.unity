@@ -2071,12 +2071,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TimeToPlayAgain: 15
   auxCount: 2
+  just_entered: 0
   cam: {fileID: 642}
   finalPosition: {fileID: 634}
-  narrationAudio: {fileID: 8300000, guid: 092de476956e29344a79a6fdca067a9a, type: 3}
-  narrationAudio1: {fileID: 8300000, guid: dd5b0e39f39a9c54890aaaa741c885a6, type: 3}
+  menu_audios:
+  - {fileID: 8300000, guid: 092de476956e29344a79a6fdca067a9a, type: 3}
+  - {fileID: 8300000, guid: dd5b0e39f39a9c54890aaaa741c885a6, type: 3}
+  - {fileID: 8300000, guid: 07093320a2b7e694996c2ace6ae9dc20, type: 3}
+  - {fileID: 8300000, guid: 35a7e7fe7e137a245a8f5e2d5c6b9acb, type: 3}
+  - {fileID: 8300000, guid: 608a123838a5e0c488b28e6b37f12c6f, type: 3}
+  - {fileID: 8300000, guid: 872b4ecfde0138248a7b232fc117a4a0, type: 3}
+  - {fileID: 8300000, guid: 90d1f39b2c406de4a96805d6193e4c9f, type: 3}
+  - {fileID: 8300000, guid: 55dfe3c78a3e45544867a503d3aee29e, type: 3}
+  exit_audios:
+  - {fileID: 8300000, guid: 69822da70aecda24d82f792eadda64f1, type: 3}
+  - {fileID: 8300000, guid: 29066df81a0443c4c93fabf63879878d, type: 3}
+  - {fileID: 8300000, guid: ef7af4c2397b85746aef3f62f779bd5f, type: 3}
+  - {fileID: 8300000, guid: d3ecae188b2156443a1cd726b13e8038, type: 3}
+  - {fileID: 8300000, guid: 4e2510af146c64342bc55ea58ea6fda5, type: 3}
+  - {fileID: 8300000, guid: e5f75c10b165c9c43812b206b2026d30, type: 3}
+  - {fileID: 8300000, guid: e2d1526cb694e1e448223672b0613a0b, type: 3}
+  - {fileID: 8300000, guid: 3f4a4cf072cc94346860293ad1bc430a, type: 3}
   narrationAudio2: {fileID: 8300000, guid: 6aa65e8d3b60fb64bb7b5b46f1f94184, type: 3}
   mapAudio: {fileID: 1178}
+  concluded: 0
 --- !u!114 &1323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2558,11 +2576,29 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2449530834583654750, guid: 80e61aa84b8c89a46b47b121c1151311,
+    - target: {fileID: 905241630016419042, guid: 80e61aa84b8c89a46b47b121c1151311,
         type: 3}
-      propertyPath: m_Sprite
+      propertyPath: sprites.Array.data[0]
       value: 
-      objectReference: {fileID: 21300000, guid: b6af1973cf85ca14fb4a4978465bcc87,
+      objectReference: {fileID: 21300000, guid: 8dbd029fe10c688448ea594d2028dcd8,
+        type: 3}
+    - target: {fileID: 905241630016419042, guid: 80e61aa84b8c89a46b47b121c1151311,
+        type: 3}
+      propertyPath: sprites.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: fec1730517979474788df2f12eafb352,
+        type: 3}
+    - target: {fileID: 905241630016419042, guid: 80e61aa84b8c89a46b47b121c1151311,
+        type: 3}
+      propertyPath: sprites.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 13de8d5455a72794b89917f185c6a41d,
+        type: 3}
+    - target: {fileID: 905241630016419042, guid: 80e61aa84b8c89a46b47b121c1151311,
+        type: 3}
+      propertyPath: sprites.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: ce08a09bf12f2a74caf7946c052a9c89,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80e61aa84b8c89a46b47b121c1151311, type: 3}

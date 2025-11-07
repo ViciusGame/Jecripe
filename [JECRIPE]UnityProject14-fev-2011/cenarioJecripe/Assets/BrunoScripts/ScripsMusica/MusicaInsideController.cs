@@ -60,6 +60,7 @@ private var janela6Feita:boolean = false;*/
         gc = GameObject.Find("GameController");
         if (gc)
         {
+            gc.GetComponent<GameController>().PreviousScene = "musica";
             if (!gc.GetComponent<AudioSource>().isPlaying)
             {
                 gc.GetComponent<AudioSource>().Play();
@@ -210,12 +211,6 @@ private var janela6Feita:boolean = false;*/
                 yield return new WaitForSeconds(0.2f);
             }
             GetComponent<AudioSource>().clip = narracaoFinal;
-            GetComponent<AudioSource>().Play();
-            yield return new WaitForSeconds(GetComponent<AudioSource>().clip.length);
-            GetComponent<AudioSource>().clip = final1;
-            GetComponent<AudioSource>().Play();
-            yield return new WaitForSeconds(GetComponent<AudioSource>().clip.length);
-            GetComponent<AudioSource>().clip = final2;
             GetComponent<AudioSource>().Play();
             yield return new WaitForSeconds(GetComponent<AudioSource>().clip.length);
             GetComponent<AudioSource>().clip = volteSempre;

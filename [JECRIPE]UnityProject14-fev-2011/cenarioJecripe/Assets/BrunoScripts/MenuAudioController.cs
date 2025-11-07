@@ -10,6 +10,7 @@ public partial class MenuAudioController : MonoBehaviour
     public virtual void Start()
     {
         this.StartCoroutine(this.FirstCheck());
+        GameObject.Find("GameController").GetComponent<GameController>().PreviousScene = "Menu";
     }
 
     public Transform cam;
