@@ -11,6 +11,7 @@ public partial class BBPiecesController : MonoBehaviour
     public bool canDragSoapBottle;
     public virtual void Start()
     {
+        GameObject.Find("GameController").GetComponent<GameController>().PreviousScene = "Bolhas";
         isDraggingWater = false;
         isDraggingSoap = false;
         isDraggingLastPiece = false;

@@ -7,6 +7,7 @@ public partial class GameController : MonoBehaviour
     public bool CasaMusicaCompleta;
     public bool CrecheVovoCompleta;
     public bool CasaBolhasCompleta;
+    public string PreviousScene;
     private bool firstLoad;
     private bool firstLoadMap;
     public virtual void Awake()
